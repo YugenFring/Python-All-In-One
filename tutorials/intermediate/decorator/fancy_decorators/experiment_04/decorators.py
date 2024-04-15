@@ -13,7 +13,7 @@ def repeat(_func=None, *, num_times=2):
         return decorator_repeat
     else:
         return decorator_repeat(_func)
-    
+
 # Same as above,
 def repeat_modified(func=None, *, num_times=2):
     if func is None:
