@@ -1,5 +1,3 @@
-[online tutorial](https://realpython.com/python-modules-packages/)
-
 ## Conclusion
 
 In this tutorial, you covered the following topics:
@@ -50,3 +48,5 @@ Important thinking:
 - The differences in the wildcard import mechanism between packages and modules.
 - The absolute import and relative import.
 - un-public object with underscore.
+
+[Online Tutorial](https://realpython.com/python-modules-packages/)
