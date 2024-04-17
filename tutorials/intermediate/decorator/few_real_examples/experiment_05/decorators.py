@@ -5,6 +5,6 @@ def login_required(func):
     @functools.wraps(func)
     def wrapper_login_required(*args, **kwargs):
         if g.user is None:
-            pass
+            return Exception
         return func(*args, **kwargs)
     return wrapper_login_required

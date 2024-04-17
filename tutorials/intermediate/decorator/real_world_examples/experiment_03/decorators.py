@@ -1,8 +1,9 @@
 import functools
 
 def cache(func):
-    """Keep a cache of previous function calls"""
-    # `@functools.cache` is considerable.
+    """Keep a cache of previous function calls
+    `@functools.cache` is considerable.
+    """
     @functools.wraps(func)
     def wrapper_cache(*args, **kwargs):
         cache_key = args + tuple(kwargs.items())

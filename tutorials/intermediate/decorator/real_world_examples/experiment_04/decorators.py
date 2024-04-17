@@ -1,5 +1,3 @@
-import functools
-
 def set_unit(unit):
     """Register a unit on a func"""
     def decorator_set_unit(func):
