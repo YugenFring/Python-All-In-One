@@ -8,4 +8,5 @@ collections = [numbers, person, letters, ordinals, even_digits]
 # Loop over the different built-in types in the same `for` loop.
 for collection in collections:
     for value in collection:
-        print(value)
+        print(value, end=' ')
+    print()
