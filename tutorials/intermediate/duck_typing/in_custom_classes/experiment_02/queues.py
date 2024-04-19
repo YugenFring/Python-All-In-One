@@ -29,4 +29,3 @@ class Queue:
     # to support membership tests.
     def __contains__(self, element):
         return element in self._elements
-    
