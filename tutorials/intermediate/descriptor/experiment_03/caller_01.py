@@ -10,6 +10,7 @@ class Car(Vehicle):
 
 my_car = Car('red')
 
+# See the difference in invoking `__dict__` for different object.
 print(my_car.__dict__)
 print()
 

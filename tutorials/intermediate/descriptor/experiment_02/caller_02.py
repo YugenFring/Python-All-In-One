@@ -7,10 +7,10 @@ class Foo():
 
     attr = property(fget=getter, fset=setter)
 
-
 my_foo = Foo()
 x = my_foo.attr
 print(x)
 print()
 
+# Error
 my_foo.attr = 99

@@ -1,6 +1,8 @@
 class OneDigitNumbericValue():
     def __set_name__(self, owner, name):
-        # whenever you instantiate a descriptor this method
+        # Owner is the class type of the object your descriptor
+        # is attached to.
+        # Whenever you instantiate a descriptor this method
         # is called and the `name` automatically set.
         self.name = name
 

@@ -1,4 +1,5 @@
 import functools
+import request
 
 def validate_json(*expected_args):
     def decorator_validate_json(func):
